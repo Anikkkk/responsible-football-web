@@ -1,0 +1,126 @@
+/* Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* styles of Conmebol Copa America start*/
+.kick-off{
+    background-color: #2D25A0;
+    
+}
+
+.Conmebol-copa-america{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+} 
+
+.conmebol-copa-merica-2021-title h1{
+    /* width: 485px;
+    height: 230px; */
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.button{
+    background-color: #E02C6D;
+    padding: 10px  24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Conmebol-copa-america img{
+    width: 556.01px;
+    height: 438px;
+}
+/* styles of Conmebol Copa America end */
+
+/* Player section style start */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    overflow: hidden;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player h2{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player p{
+    font-size: 16px;
+}
+/* Player section style end */
+
+/* Conmebol Copa America 2021 Highlights style start */
+.copa-america-highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+    margin-bottom: 221px;
+}
+.copa-america-highlights-information{
+    width: 469px;
+    height: 309px;
+}
+.copa-america-highlights-information p{
+    margin-bottom: 24px;
+}
+.copa-america-highlights-image img{
+    width: 567px;
+    height: 427px;
+}
+/* Conmebol Copa America 2021 Highlights style end */
+
+/* footer style start */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+   }
+   
+   .fa-brands{
+       color: #969BAB;
+       margin-left: 14px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+   .copyright-title p{
+       font-size: 18px;
+   }
+   /* footer style end */
