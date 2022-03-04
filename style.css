@@ -16,6 +16,8 @@ body{
 /* styles of Conmebol Copa America start*/
 .kick-off{
     background-color: #2D25A0;
+    padding-top: 67px;
+    padding-bottom: 86px;
     
 }
 
@@ -27,8 +29,6 @@ body{
 } 
 
 .conmebol-copa-merica-2021-title h1{
-    /* width: 485px;
-    height: 230px; */
     color: #FFFFFF;
     font-size: 64px;
 }
@@ -43,6 +43,19 @@ body{
 .Conmebol-copa-america img{
     width: 556.01px;
     height: 438px;
+    max-width: 100%;
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+    transition: 0.5s;
+    cursor: pointer;
+    padding-right: 4px;
+}
+.Conmebol-copa-america img:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+.kick-off-image{
+    padding-left: 129px;
 }
 /* styles of Conmebol Copa America end */
 
@@ -92,9 +105,13 @@ body{
 .copa-america-highlights-information{
     width: 469px;
     height: 309px;
+    margin-right: 66px;
 }
 .copa-america-highlights-information p{
     margin-bottom: 24px;
+}
+.copa-america-highlights-information h1{
+    font-size: 48px;
 }
 .copa-america-highlights-image img{
     width: 567px;
@@ -113,6 +130,7 @@ footer{
     width: 483.87px;
     height: 110px;
    }
+
    
    .fa-brands{
        color: #969BAB;
@@ -122,5 +140,76 @@ footer{
    }
    .copyright-title p{
        font-size: 18px;
+       font-weight: bold;
    }
    /* footer style end */
+
+
+   /* Media Query */
+   @media only screen and (max-width:668px){
+    .conmebol-copa-merica-2021-title h1{
+        color: #FFFFFF;
+        font-size: 36px;
+       }
+        .Conmebol-copa-america img{
+            width: 329px;
+            height: 259.17px;
+        }
+        .kick-off-image {
+                padding: 15px;
+                padding-top: 50px;
+        }
+        .Conmebol-copa-america{
+            display: flex;
+            flex-direction: column;
+
+        }
+    
+    .all-players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .copa-america-highlights{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 165px;
+        margin-bottom: 221px;
+    }
+    .copa-america-highlights-image img{
+        width: 328px;
+        height: 248px;
+    }
+    .copa-america-highlights-information{
+        width: 329px;
+        height: 231px;
+    }
+    .copa-america-highlights-information h1{
+        font-size: 30px;
+            
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-logo img{
+        width: 150px;
+        height: 63px;
+       }
+       .copyright-title p{
+        font-size: 18px;
+        line-height: 24px;
+       }
+       .fa-solid, .fas {
+        font-size: small;
+       }
+    }
+
+
+
+
+    
